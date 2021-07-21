@@ -3788,6 +3788,7 @@ margin-top: 50px;
     color: white;
     left: 1000px;
     z-index: 99;
+    margin-top: 60px;
 }
 @media only screen and (max-width: 768px){
     #scroll-kira{
