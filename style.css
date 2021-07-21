@@ -89,7 +89,7 @@ body{
 
 .hero-page{
     /* margin-top: 50px; */
-    background: rgba(0, 0, 0, 0.7)url('img/banner\ img.jpg');
+    background: rgba(0, 0, 0, 0.8)url('img/banner\ img.jpg');
     height: 100vh;
     background-blend-mode: darken;
     background-attachment: fixed;
