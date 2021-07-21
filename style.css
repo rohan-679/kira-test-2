@@ -317,6 +317,7 @@ body{
     margin-top: 10%;
 }
 @media only screen and (max-width: 630px){
+    
     .timeline-news-1 h1{
         font-size: 14px;
     }
@@ -333,6 +334,7 @@ body{
     }
     .timeline-news-1-p h1{
         font-size: 20px;
+        margin-top: 1%;
     }
 }
 @media only screen and (max-width: 1024px){
@@ -342,6 +344,9 @@ body{
     .timeline-news-1 img{
         margin-bottom: 30px;
     }
+    .timeline-news-1-p h1{
+    margin-top: 2%;
+}
 }
 @media only screen and (min-width: 2000px){
     .timeline-news-1{
@@ -405,6 +410,7 @@ body{
     }
     .timeline-news-2-p h1{
         font-size: 20px;
+        margin-top: 1%;
     }
 }
 @media only screen and (max-width: 1024px){
@@ -417,6 +423,9 @@ body{
     .timeline-news-2-img{
         order: -1;
     }
+    .timeline-news-2-p h1{
+    margin-top: 2%;
+}
 }
 @media only screen and (min-width: 2000px){
     .timeline-news-2{
@@ -481,6 +490,7 @@ body{
     }
     .timeline-news-3-p h1{
         font-size: 20px;
+        margin-top: 1%;
     }
 }
 @media only screen and (max-width: 1024px){
@@ -489,6 +499,8 @@ body{
     }
     .timeline-news-3 img{
         margin-bottom: 30px;
+    }.timeline-news-3-p h1{
+        margin-top: 2%;
     }
 }
 @media only screen and (min-width: 2000px){
@@ -2084,6 +2096,9 @@ body{
     background: #000000;
     margin-top: 50px;
 }
+#contact-right-inner i{
+    margin-right: 5px;
+}
 #contact-right-inner h1{
     color: white;
     font-family: 'dharma', sans-serif;
@@ -2148,6 +2163,8 @@ body{
 @media only screen and (max-width: 400px){
     #contact-right-inner h1{
         margin-bottom: 30px;
+        font-size: 28px;
+        text-align: center;
     }
     #contact-left-inner{
         margin-top: 40px;
