@@ -3761,7 +3761,6 @@ body{
 
 }
 .kira-mid-text {
-    display: flex;
     overflow-x: hidden;
     overflow-y: hidden;
 }
