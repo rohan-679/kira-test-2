@@ -3760,7 +3760,11 @@ body{
         }
 
 }
-
+.kira-mid-text {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 .kira-mid-text .kira-mid-text-inner{
     overflow-x: hidden;
     display: flex;
