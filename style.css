@@ -54,6 +54,11 @@ body{
 .container-fluid .navbar-brand img:hover{
     border-bottom: 4px solid red;
 }
+@media only screen and (max-width: 1024px){
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 20px;
+    }
+}
 @media only screen and (max-width: 768px){
     .navbar-dark .navbar-nav .nav-link{
         font-size: 30px;
@@ -356,15 +361,19 @@ body{
     }
 }
 @media only screen and (max-width: 1024px){
+    .timeline-news-1-p h1{
+        text-align: center;
+        margin-top: 2%;
+    }
+    .timeline-news-1-p p{
+        text-align: center;
+    }
     .timeline-news-1{
         justify-content: center;
     }
     .timeline-news-1 img{
         margin-bottom: 30px;
     }
-    .timeline-news-1-p h1{
-    margin-top: 2%;
-}
 }
 @media only screen and (min-width: 2000px){
     .timeline-news-1{
@@ -414,6 +423,7 @@ body{
 @media only screen and (max-width: 630px){
     .timeline-news-2 h1{
         font-size: 14px;
+        text-align: center;
     }
     .timeline-news-2 img{
         margin-top: 30px;
@@ -427,6 +437,7 @@ body{
         font-size: 10px;
     }
     .timeline-news-2-p h1{
+        text-align: center;
         font-size: 20px;
         margin-top: 1%;
     }
@@ -442,8 +453,18 @@ body{
         order: -1;
     }
     .timeline-news-2-p h1{
-    margin-top: 2%;
-}
+        text-align: center;
+        margin-top: 2%;
+    }
+    .timeline-news-2-p p {
+        text-align: center;
+    }
+    .timeline-news-3-p h1 {
+        text-align: center;
+    }
+    .timeline-news-3-p p {
+        text-align: center;
+    }
 }
 @media only screen and (min-width: 2000px){
     .timeline-news-2{
@@ -509,6 +530,7 @@ body{
     .timeline-news-3-p h1{
         font-size: 20px;
         margin-top: 1%;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 1024px){
@@ -519,6 +541,10 @@ body{
         margin-bottom: 30px;
     }.timeline-news-3-p h1{
         margin-top: 2%;
+        text-align: center;
+    }
+    .timeline-news-3-p p{
+        text-align: center;
     }
 }
 @media only screen and (min-width: 2000px){
@@ -2294,6 +2320,15 @@ body{
     #footer-right-input{
         margin-left: 20px;
     }
+    #footer-left {
+        margin-top: 50px;
+    }
+    #footer-left-inner-first {
+        margin-bottom: 80px;
+    }
+    #footer-right {
+        margin-top: 50px;
+    }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1300px){
     #footer-right-input{
@@ -3725,7 +3760,9 @@ body{
         }
 
 }
-
+.kira-mid-text{
+    display: flex;
+}
 .kira-mid-text .kira-mid-text-inner{
     overflow-x: hidden;
     display: flex;
@@ -3777,7 +3814,6 @@ margin-top: 50px;
 
 
 #scroll-kira{
-    /* overflow: hidden; */
     margin: 0;
     padding: 0;
     position: relative;
@@ -3788,7 +3824,6 @@ margin-top: 50px;
     color: white;
     left: 1000px;
     z-index: 99;
-    margin-top: 60px;
 }
 @media only screen and (max-width: 768px){
     #scroll-kira{
